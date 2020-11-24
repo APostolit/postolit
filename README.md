@@ -28,6 +28,7 @@ This is the first version of the library, which will be further developed and ex
 
 Переводит изображение в черно-белое
 - image – Исходное изображение
+
 Возвращает измененное изображение
 
 ![alt text](images/Black_im.jpg "Трансмформация в черно-белое")
@@ -39,13 +40,14 @@ This is the first version of the library, which will be further developed and ex
 
 Определяет границы (контуры) элементов изображения
 - image – изображение
+
 Возвращает измененное изображение в виде контурных линий
 
 ![alt text](images/Canny_im.jpg "Контуры элементов изображения")
 
 Рис.3. Определяет границы (контуры) элементов изображения
 
-3.Функция get_video_param(file_input)
+3. Функция get_video_param(file_input)
 
 Получает параметры видеофайла, которые будут использованы для записи  аналогичного видео файла на диск с теми же параметрами (для файлов формата .mp4 и .avi)
 - file_input – имя входного видео файла
@@ -54,6 +56,7 @@ This is the first version of the library, which will be further developed and ex
 4. Функция gray_image(image)
 Переводит изображение в градации серого
 - image – изображение
+
 Возвращает измененное изображение
 
 ![alt text](images/Gray_im.jpg "Контуры элементов изображения")
@@ -65,6 +68,7 @@ This is the first version of the library, which will be further developed and ex
 Изменяет высоту изображения до заданного размера
 - image – изображение
 - height – новая высота изображения
+
 Возвращает измененное изображение
 
 ![alt text](images/ResizeH_im.jpg "Контуры элементов изображения")
@@ -75,6 +79,7 @@ This is the first version of the library, which will be further developed and ex
 
 Уменьшает или увеличивает изображение на заданный процент. Если percent>100, то изображение увеличивается. Если percent<100, то изображение уменьшается.	image – изображение
 - percent – процент масштабирования изображения
+
 Возвращает измененное изображение
 
 ![alt text](images/ResizeP_im.jpg "Контуры элементов изображения")
@@ -86,6 +91,7 @@ This is the first version of the library, which will be further developed and ex
 Изменяет ширину изображения до заданного размера
 - image – изображение
 - width – новая ширина изображения
+
 Возвращает измененное изображение
 
 ![alt text](images/ResizeW_im.jpg "Контуры элементов изображения")
@@ -98,6 +104,7 @@ This is the first version of the library, which will be further developed and ex
 - image – изображение
 - width – новая ширина изображения
 - height – новая высота изображения
+
 Возвращает измененное изображение
 
 ![alt text](images/ResizeWH_im.jpg "Контуры элементов изображения")
@@ -109,6 +116,7 @@ This is the first version of the library, which will be further developed and ex
 Вращение изображения на заданный угол с сохранением размера кадра (frame size). Если corner >0, то вращение по часовой стрелке. Если corner <0, то изображение повернется против часовой стрелки.
 - image – изображение
 - corner – угол поворота
+
 Возвращает повернутое изображение с неизменным размером кадра
 
 ![alt text](images/RotateFS_im.jpg "Контуры элементов изображения")
@@ -120,6 +128,7 @@ This is the first version of the library, which will be further developed and ex
 Вращение изображения на заданный угол с сохранением размера изображения (image size). Если corner >0, то вращение по часовой стрелке. Если corner <0, то изображение повернется против часовой стрелки.
 - image – изображение
 - corner – угол поворота
+
 Возвращает повернутое изображение с неизменным размером и пропорциями изображения (с измененным размером кадра)
 
 ![alt text](images/RotateIS_im.jpg "Вращение изображения с изменением размера кадра")
@@ -132,6 +141,7 @@ This is the first version of the library, which will be further developed and ex
 -file_input – имя входного видео файла
 - width – ширина измененного кадра
 - height - высота измененного кадра
+
 Возвращает объект с параметрами, которые можно использовать для записи на диск файла с измененными размерами кадра.
 
 ![alt text](images/SetVideo_im.jpg "Изменяет размер кадра")
@@ -142,6 +152,7 @@ This is the first version of the library, which will be further developed and ex
 
 Сегментирует изображение
 - image – изображение
+
 Возвращает изображение с выделение границ цветных областей
 
 ![alt text](images/Segment_im.jpg "Сегментирует изображение")
