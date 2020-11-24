@@ -57,7 +57,9 @@ This is the first version of the library, which will be further developed and ex
 
 ----------------------------
 4. Функция gray_image(image)
+
 Переводит изображение в градации серого
+
 - image – исходное изображение
 
 Возвращает измененное изображение
