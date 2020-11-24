@@ -36,7 +36,7 @@ This is the first version of the library, which will be further developed and ex
 Рис.2. Трансформация исходного изображения в черно-белое
 
 ------------------------------
-2.Функция canny_edge_detector(image)
+2. Функция canny_edge_detector(image)
 
 Определяет границы (контуры) элементов изображения
 - image – изображение
@@ -84,6 +84,7 @@ This is the first version of the library, which will be further developed and ex
 6. Функция resize_percent (image, percent)
 
 Уменьшает или увеличивает изображение на заданный процент. Если percent>100, то изображение увеличивается. Если percent<100, то изображение уменьшается.	image – изображение
+
 - percent – процент масштабирования изображения
 
 Возвращает измененное изображение
