@@ -101,7 +101,7 @@ This is the first version of the library, which will be further developed and ex
 - corner – угол поворота
 Возвращает повернутое изображение с неизменным размером кадра
 
-![alt text](images/ResizeFS_im.jpg "Контуры элементов изображения")
+![alt text](images/RotateFS_im.jpg "Контуры элементов изображения")
 
 Рис.9. Вращение изображения на заданный угол с сохранением размера кадра
 
@@ -111,7 +111,7 @@ This is the first version of the library, which will be further developed and ex
 - corner – угол поворота
 Возвращает повернутое изображение с неизменным размером и пропорциями изображения (с измененным размером кадра)
 
-![alt text](images/ResizeIH_im.jpg "Вращение изображения с изменением размера кадра")
+![alt text](images/RotateIH_im.jpg "Вращение изображения с изменением размера кадра")
 
 Рис.10. Вращение изображения на заданный угол с сохранением размера изображения
 
