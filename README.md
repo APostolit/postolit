@@ -9,6 +9,7 @@ e-mail: anat_post@mail.ru
 
 This function library is designed for post-processing images and frame-by-frame processing of video files. Can be used in computer vision systems (fixation of violations of traffic rules, assessment of drivers skills and car control, control of unmanned vehicles, counting the number of the visitor in the public areas and passengers in public transport, in medicine, in the advertising business, agriculture, etc.).
 This is the first version of the library, which will be further developed and expanded.
+
 Installing the library using pip:
 pip install postolit
 
