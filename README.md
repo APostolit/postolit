@@ -18,6 +18,7 @@ This is the first version of the library, which will be further developed and ex
 Это первая версия библиотеки, которая будет дорабатываться и расширяться.
 
 ![alt text](images/Input_im.jpg "Исходное изображение")
+
 Рис.1. Исходное изображение
 
 Перечень базовых функций
