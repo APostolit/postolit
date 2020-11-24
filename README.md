@@ -26,6 +26,10 @@ This is the first version of the library, which will be further developed and ex
 1	black_image(image)	Переводит изображение в черно-белое	image – изображение
 Возвращает измененное изображение
 
+![alt text](images/Black_im.jpg "Трансмформация в черно-белое")
+
+Рис.2. Трансформация исходного изображения в черно-белое
+
 2	canny_edge_detector(image)	Определяет границы (контуры) элементов изображения	image – изображение
 Возвращает измененное изображение в виде контурных линий
 
