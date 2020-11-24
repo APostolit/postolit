@@ -1,5 +1,6 @@
 # postolit
 Postoperative Library for Image Transformation (PostoLIT)
+---------------------------------------------------------
 
 Developed: Prof. Anatoly Postolit 
 (doctor of technical Sciences, Professor, academician of the Russian Academy of transport),
@@ -8,6 +9,11 @@ e-mail: anat_post@mail.ru
 
 This function library is designed for post-processing images and frame-by-frame processing of video files. Can be used in computer vision systems (fixation of violations of traffic rules, assessment of drivers skills and car control, control of unmanned vehicles, counting the number of the visitor in the public areas and passengers in public transport, in medicine, in the advertising business, agriculture, etc.).
 This is the first version of the library, which will be further developed and expanded.
+Installing the library using pip:
+pip install postolit
+
+Послеоперационная библиотека для преобразования изображений
+-----------------------------------------------------------
 
 Разработал: проф. Анатолий Постолит 
           (доктор технических наук, профессор, академик Российской академии транспорта),
@@ -16,6 +22,9 @@ This is the first version of the library, which will be further developed and ex
 
 Данная библиотека функция предназначена для постобработки изображений и покадровой обработки видеофайлов. Может использоваться в системах компьютерного зрения (фиксация нарушений правил дорожного движения, оценка состояния водителей и мастерства управления автомобилем, управление беспилотными автомобилями, подсчет количества посетителе в публичных местах и пассажиров в общественном транспорте,  в медицине, в сфере рекламного бизнеса, в сельском хозяйстве и т.п.).
 Это первая версия библиотеки, которая будет дорабатываться и расширяться.
+
+Установка библиотеки с использованием pip:
+pip install postolit
 
 ![alt text](images/Input_im.jpg "Исходное изображение")
 
