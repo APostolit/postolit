@@ -19,7 +19,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/Input_im.jpg "Исходное изображение")
 
-Рис.1. Исходное изображение
+Рис.1. Пример исходного изображения
 
 Перечень базовых функций
 
@@ -33,7 +33,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/Black_im.jpg "Трансмформация в черно-белое")
 
-Рис.2. Трансформация исходного изображения в черно-белое
+Рис.2. Пример трансформации исходного изображения в черно-белое
 
 ------------------------------
 2. Функция canny_edge_detector(image)
@@ -45,7 +45,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/Canny_im.jpg "Контуры элементов изображения")
 
-Рис.3. Определяет границы (контуры) элементов изображения
+Рис.3. Пример определения границ (контуров) элементов изображения
 
 ----------------------------
 3. Функция get_video_param(file_input)
@@ -66,7 +66,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/Gray_im.jpg "Контуры элементов изображения")
 
-Рис.4. Трансформирует изображение в градации серого
+Рис.4. Пример трансформации изображения в градации серого
 
 ----------------------------
 5. Функция resize_height(image, height)
@@ -79,7 +79,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/ResizeH_im.jpg "Контуры элементов изображения")
 
-Рис.5. Изменение высоты изображения до заданного размера
+Рис.5. Пример изменения высоты изображения до заданного размера
 
 
 ----------------------------
@@ -94,7 +94,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/ResizeP_im.jpg "Контуры элементов изображения")
 
-Рис.6. Уменьшение или увеличение изображения на заданный процент
+Рис.6. Пример уменьшения или увеличения изображения на заданный процент
 
 ----------------------------
 7. Функция resize_width(image, width)
@@ -107,7 +107,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/ResizeW_im.jpg "Контуры элементов изображения")
 
-Рис.7. Трансформирует изображение в градации серого
+Рис.7. Пример изменения ширины изображения до заданного размера
 
 ----------------------------
 8. Функция resize_wh(image, width, height)
@@ -121,7 +121,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/ResizeWH_im.jpg "Контуры элементов изображения")
 
-Рис.8. Изменениет ширины и высоты изображения до заданного размера
+Рис.8. Пример изменения ширины и высоты изображения до заданного размера
 
 ----------------------------
 9. Функция rotate_image_fs(image, corner)
@@ -135,7 +135,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/RotateFS_im.jpg "Контуры элементов изображения")
 
-Рис.9. Вращение изображения на заданный угол с сохранением размера кадра
+Рис.9. Пример вращения изображения на заданный угол с сохранением размера кадра
 
 ----------------------------
 10. Функция rotate_image_is(mat, angle)
@@ -149,7 +149,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/RotateIS_im.jpg "Вращение изображения с изменением размера кадра")
 
-Рис.10. Вращение изображения на заданный угол с сохранением размера изображения
+Рис.10. Пример вращение изображения на заданный угол без его обрезки (с изменением размера кадра)
 
 ----------------------------
 11. Функция set_video_param(file_input, width, height)
@@ -164,7 +164,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/SetVideo_im.jpg "Изменяет размер кадра")
 
-Рис.11. Трансформирует видео в другой размер кадра
+Рис.11. Пример трансформации видео в файл с другим размером кадра
 
 ----------------------------
 12. Функция segment_image(image)
@@ -177,7 +177,7 @@ This is the first version of the library, which will be further developed and ex
 
 ![alt text](images/Segment_im.jpg "Сегментирует изображение")
 
-Рис.12. Сегментирует изображение
+Рис.12. Пример сегментации изображения
 
 
 
