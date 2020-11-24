@@ -24,6 +24,7 @@ This is the first version of the library, which will be further developed and ex
 Перечень базовых функций
         *-*-*-*-
 1. Функция black_image(image)
+------------------------------
 Переводит изображение в черно-белое
 - image – Исходное изображение
 Возвращает измененное изображение
