@@ -31,7 +31,7 @@ This is the first version of the library, which will be further developed and ex
 ![alt text](images/Black_im.jpg "Трансмформация в черно-белое")
 
 Рис.2. Трансформация исходного изображения в черно-белое
---------------------------------------------------------
+
 
 2.Функция canny_edge_detector(image)
 Определяет границы (контуры) элементов изображения
@@ -52,7 +52,7 @@ This is the first version of the library, which will be further developed and ex
 - image – изображение
 Возвращает измененное изображение
 
-![alt text](images/Grey_im.jpg "Контуры элементов изображения")
+![alt text](images/Gray_im.jpg "Контуры элементов изображения")
 
 Рис.4. Трансформирует изображение в градации серого
 
