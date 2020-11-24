@@ -27,7 +27,7 @@ This is the first version of the library, which will be further developed and ex
 1. Функция black_image(image)
 
 Переводит изображение в черно-белое
-- image – Исходное изображение
+- image – исходное изображение
 
 Возвращает измененное изображение
 
@@ -39,7 +39,7 @@ This is the first version of the library, which will be further developed and ex
 2. Функция canny_edge_detector(image)
 
 Определяет границы (контуры) элементов изображения
-- image – изображение
+- image – исходное изображение
 
 Возвращает измененное изображение в виде контурных линий
 
@@ -58,7 +58,7 @@ This is the first version of the library, which will be further developed and ex
 ----------------------------
 4. Функция gray_image(image)
 Переводит изображение в градации серого
-- image – изображение
+- image – исходное изображение
 
 Возвращает измененное изображение
 
@@ -70,7 +70,7 @@ This is the first version of the library, which will be further developed and ex
 5. Функция resize_height(image, height)
 
 Изменяет высоту изображения до заданного размера
-- image – изображение
+- image – исходное изображение
 - height – новая высота изображения
 
 Возвращает измененное изображение
@@ -83,8 +83,9 @@ This is the first version of the library, which will be further developed and ex
 ----------------------------
 6. Функция resize_percent (image, percent)
 
-Уменьшает или увеличивает изображение на заданный процент. Если percent>100, то изображение увеличивается. Если percent<100, то изображение уменьшается.	image – изображение
+Уменьшает или увеличивает изображение на заданный процент. Если percent>100, то изображение увеличивается. Если percent<100, то изображение уменьшается.
 
+- image – исходное изображение
 - percent – процент масштабирования изображения
 
 Возвращает измененное изображение
@@ -97,7 +98,7 @@ This is the first version of the library, which will be further developed and ex
 7. Функция resize_width(image, width)
 
 Изменяет ширину изображения до заданного размера
-- image – изображение
+- image – исходное изображение
 - width – новая ширина изображения
 
 Возвращает измененное изображение
@@ -110,7 +111,7 @@ This is the first version of the library, which will be further developed and ex
 8. Функция resize_wh(image, width, height)
 
 Изменяет ширину и высоту изображения до заданного размера
-- image – изображение
+- image – исходное изображение
 - width – новая ширина изображения
 - height – новая высота изображения
 
@@ -124,7 +125,8 @@ This is the first version of the library, which will be further developed and ex
 9. Функция rotate_image_fs(image, corner)
 
 Вращение изображения на заданный угол с сохранением размера кадра (frame size). Если corner >0, то вращение по часовой стрелке. Если corner <0, то изображение повернется против часовой стрелки.
-- image – изображение
+
+- image – исходное изображение
 - corner – угол поворота
 
 Возвращает повернутое изображение с неизменным размером кадра
@@ -137,7 +139,8 @@ This is the first version of the library, which will be further developed and ex
 10. Функция rotate_image_is(mat, angle)
 
 Вращение изображения на заданный угол с сохранением размера изображения (image size). Если corner >0, то вращение по часовой стрелке. Если corner <0, то изображение повернется против часовой стрелки.
-- image – изображение
+
+- image – исходное изображение
 - corner – угол поворота
 
 Возвращает повернутое изображение с неизменным размером и пропорциями изображения (с измененным размером кадра)
@@ -150,7 +153,8 @@ This is the first version of the library, which will be further developed and ex
 11. Функция set_video_param(file_input, width, height)
 
 Задает параметры видеофайлу, которые будут использованы для изменения размера кадра и записи  обработанного видео файла на диск (для файлов формата .mp4 и .avi)
--file_input – имя входного видео файла
+
+- file_input – имя входного видео файла
 - width – ширина измененного кадра
 - height - высота измененного кадра
 
@@ -164,7 +168,8 @@ This is the first version of the library, which will be further developed and ex
 12. Функция segment_image(image)
 
 Сегментирует изображение
-- image – изображение
+
+- image – исходное изображение
 
 Возвращает изображение с выделение границ цветных областей
 
