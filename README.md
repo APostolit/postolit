@@ -24,7 +24,6 @@ This is the first version of the library, which will be further developed and ex
 Перечень базовых функций
         *-*-*-*-
 1. Функция black_image(image)
-------------------------------
 Переводит изображение в черно-белое
 - image – Исходное изображение
 Возвращает измененное изображение
@@ -32,7 +31,7 @@ This is the first version of the library, which will be further developed and ex
 ![alt text](images/Black_im.jpg "Трансмформация в черно-белое")
 
 Рис.2. Трансформация исходного изображения в черно-белое
-
+------------------------------
 
 2.Функция canny_edge_detector(image)
 Определяет границы (контуры) элементов изображения
